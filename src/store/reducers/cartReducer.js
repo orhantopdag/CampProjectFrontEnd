@@ -21,6 +21,9 @@ export default function cartReducer(state = initialState, { type, payload }) {
         };
       }
 
+      
+
+
     case REMOVE_FROM_CART:
       return {
         ...state,
